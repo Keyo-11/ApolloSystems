@@ -8,7 +8,7 @@
 
 		<!-- Favorites Button with Counter -->
 		<v-btn to="/favorites" text class="favorites-btn d-flex align-center">
-			<span class="favorites-text me-2">⭐ Favorites</span>
+			<span class="favorites-text me-5">⭐ Favorites</span>
 			<v-badge v-if="favoritesCount > 0" :content="favoritesCount" color="pink" />
 		</v-btn>
 	</v-app-bar>
